@@ -1,0 +1,20 @@
+{
+    "reservations": [
+        {
+            "id": 1,
+            "roomId": 1,
+            "user": "juan.perez@email.com",
+            "startTime": "2024-06-10T10:00:00",
+            "endTime": "2024-06-10T12:00:00",
+            "status": "active"
+        },
+        {
+            "id": 2,
+            "roomId": 2,
+            "user": "ana.garcia@email.com",
+            "startTime": "2024-06-11T15:00:00",
+            "endTime": "2024-06-11T17:00:00",
+            "status": "active"
+        }
+    ]
+}

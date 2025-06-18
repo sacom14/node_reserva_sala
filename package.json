@@ -1,0 +1,10 @@
+{
+    "name": "reserva_sala",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Aplicación para la gestión de reservas de salas",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    }
+}

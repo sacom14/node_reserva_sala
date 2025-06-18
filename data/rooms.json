@@ -1,0 +1,22 @@
+{
+    "rooms": [
+        {
+            "id": 1,
+            "name": "Sala A",
+            "capacity": 6,
+            "location": "Planta 1"
+        },
+        {
+            "id": 2,
+            "name": "Sala B",
+            "capacity": 4,
+            "location": "Planta 2"
+        },
+        {
+            "id": 3,
+            "name": "Sala C",
+            "capacity": 8,
+            "location": "Planta 1"
+        }
+    ]
+}
