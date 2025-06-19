@@ -1,22 +1,26 @@
-{
-    "rooms": [
-        {
-            "id": 1,
-            "name": "Sala A",
-            "capacity": 6,
-            "location": "Planta 1"
-        },
-        {
-            "id": 2,
-            "name": "Sala B",
-            "capacity": 4,
-            "location": "Planta 2"
-        },
-        {
-            "id": 3,
-            "name": "Sala C",
-            "capacity": 8,
-            "location": "Planta 1"
-        }
-    ]
-}
+[
+    {
+        "id": "R-1",
+        "name": "Sala A",
+        "capacity": 4,
+        "location": "Planta 1"
+    },
+    {
+        "id": "R-2",
+        "name": "Sala B",
+        "capacity": 3,
+        "location": "Planta 2"
+    },
+    {
+        "id": "R-3",
+        "name": "Sala C",
+        "capacity": 5,
+        "location": "Planta 1"
+    },
+    {
+        "id": "R-4",
+        "name": "Sala D",
+        "capacity": 4,
+        "location": "Planta 1"
+    }
+]
