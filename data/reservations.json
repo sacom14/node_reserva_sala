@@ -1,20 +1,18 @@
-{
-    "reservations": [
-        {
-            "id": 1,
-            "roomId": 1,
-            "user": "juan.perez@email.com",
-            "startTime": "2024-06-10T10:00:00",
-            "endTime": "2024-06-10T12:00:00",
-            "status": "active"
-        },
-        {
-            "id": 2,
-            "roomId": 2,
-            "user": "ana.garcia@email.com",
-            "startTime": "2024-06-11T15:00:00",
-            "endTime": "2024-06-11T17:00:00",
-            "status": "active"
-        }
-    ]
-}
+[
+  {
+    "id": "0daaad91-a90b-4ef3-9f6f-3feba2c6e3af",
+    "roomId": "R-1",
+    "name": "Pedrito",
+    "date": "2025-06-20",
+    "hour": 19,
+    "quantityOfPeople": 3
+  },
+  {
+    "id": "bc716f01-bbbf-43fa-87a6-7e7eec283e5d",
+    "roomId": "R-1",
+    "name": "Pedrito",
+    "date": "2025-06-20",
+    "hour": 20,
+    "quantityOfPeople": 3
+  }
+]

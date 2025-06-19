@@ -1,6 +1,7 @@
 import url from 'node:url';
 import { send } from './utils.js';
 import { getAvailableRooms } from './handlers/rooms.js';
+import { getAllReservations, postReservation } from './handlers/reservations.js';
 
 export async function router(req, res) {
     const parsedUrl = url.parse(req.url, true);
@@ -10,12 +11,12 @@ export async function router(req, res) {
         return getAvailableRooms(res);
     }
     if (req.method === 'GET' && pathname === '/reservations') {
-        return console.log('Fetching reservations...');
+        return getAllReservations(res);
     }
     if (req.method === 'POST' && pathname === '/reservations') {
-        return console.log('Creating a reservation...');
+        return postReservation(req, res);
     }
-    if (req.method === 'DELETE' && pathname.startsWith('/reservations/:id')) {
+    if (req.method === 'DELETE' && pathname.startsWith('/reservations/:reservationId')) {
         return console.log('Deleting a reservation...');
     }
 

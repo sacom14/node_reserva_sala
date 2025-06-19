@@ -5,11 +5,11 @@ export function isPast(date, hour) {
 }
 
 export function sameSlot(a, b) {
-    return a.id === b.id &&
+    return a.reservationId === b.reservationId &&
         a.date === b.date &&
         a.hour === b.hour;
 }
 
-export function isRoomCapaciTyValid(roomCapacity, reqCapacity){
+export function isRoomCapaciTyValid(roomCapacity, reqCapacity) {
     return reqCapacity <= roomCapacity && reqCapacity > 0;
 }
