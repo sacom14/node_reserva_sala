@@ -14,5 +14,13 @@
     "date": "2025-06-29",
     "hour": 20,
     "quantityOfPeople": 3
+  },
+  {
+    "id": "9021a1cb-62db-4c0e-98e2-6e01e56ff95d",
+    "roomId": "R-1",
+    "name": "Pedrito",
+    "date": "2025-06-20",
+    "hour": 20,
+    "quantityOfPeople": 4
   }
 ]
