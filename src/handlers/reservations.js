@@ -52,3 +52,19 @@ export async function postReservation(req, res) {
     await writeJson(RESERVATION_FILE, reservations);
     send(res, 201, reservation);
 }
+
+export async function deleteReservation(reservationId, res) {
+    if (!reservationId) {
+        return send(res, 400, { error: 'Reservation ID is required' });
+    }
+    const reservation = await readJson(RESERVATION_FILE);
+    const index = reservation.findIndex(r => r.id === reservationId);
+
+    if (index === undefined || index === -1) {
+        return send(res, 404, { error: 'Reservation not found' });
+    }
+
+    reservation.splice(index, 1);
+    await writeJson(RESERVATION_FILE, reservation);
+    send(res, 204, null);
+}
